@@ -106,6 +106,7 @@ const App = () => {
               dataSource={data}
               loading={isLoading}
               columns={columns}
+              rowKey="id"
             />
           </div>
           {error && <p>{error}</p>}
